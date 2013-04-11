@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* ------------------------------------------------------------------------------ */
+/*                                                 AD KREATIVE + DESIGN WITH CODE */
+/* ------------------------------------------------------------------------------ */
+
+
+/*#frame {width:100%; height:100%; overflow:hidden; top:0px; position:absolute;}*/
+body {background:#707978; background-image:url('images/background_01.gif'); background-repeat:repeat-x; margin-top:0px; overflow-x: hidden; width:50%; height:50%;
+/*scrollbar-face-color : #c1c4c4; scrollbar-highlight-color : #efefef; scrollbar-3dlight-color : #ffffff;scrollbar-darkshadow-color : #707978; scrollbar-arrow-color : #ff8400; scrollbar-shadow-color : #666; scrollbar-track-color: none;*/
+}
+
+h1 {font-size:22px;}
+h2 {font-size:18px;}
+h3 {font-size:14px;}
+
+#introfade{background:#707978; background-image:url('images/background_01.gif'); background-repeat:repeat-x; width:100%; height:100%;
+ z-index:230; top:0px; left:0px; position:absolute; }
+ 
+ #videobox{width:420px; height:342px; top:300px; left:50%; margin-left:10px; position:absolute; background:#efefef; visibility:hidden;
+ font-size:12px; font-weight:bold; color:#333; font-family: Arial, Helvetica, sans-serif;
+ }
+
+#blanket{width: 931px; height: 415px; background:#e6e8e8; background-image:url('images/blanket.jpg'); top: 230px; left:50%; margin-left:-465px; position: absolute; overflow-x:hidden; z-index:30;}
+#hed {width: 1127px; height: 232px; background-image:url('images/ad_kreative_02.jpg'); top: 0px; left:50%; margin-left:-563px; position: absolute; overflow-x:hidden; }
+#home {width:146px; height:96px; left:50%; margin-left:-435px; top:44px; position:absolute; background-image:url('images/0_fff_bg.png'); cursor:pointer; }
+#box{width: 1127px; height: 413px; background-image:url('images/ad_kreative_04.gif'); top: 232px; left:50%; margin-left:-563px; position: absolute; overflow-x:hidden;}
+#foot{width: 1127px; height: 107px; top:645px; left:50%; margin-left:-563px; position: absolute; overflow-x:hidden; }
+/*#hedimg{top:30px; left:50%; margin-left:-303px; width:711px; height:123px; position:absolute;}*/
+#hedimg{top:30px; left:50%; margin-left:-251px; width:719px; height:122px; position:absolute;}
+
+#bprofile{width:225px; height:53px; top:152px; left:50%; margin-left:-292px; position:absolute;  border-right:1px solid #ffffff; text-align:center ;/*background-image:url('images/roll_a.jpg');temp*/ cursor:pointer;}
+#bservices{width:175px; height:53px; top:152px; left:50%; margin-left:-66px; position:absolute; border-right:1px solid #ffffff; border-left: 1px solid #6a7776; text-align:center; /*background-image:url('images/roll_bc.jpg');temp*/cursor:pointer;}
+#bportfolio{width:175px; height:53px; top:152px; left:50%; margin-left:111px; position:absolute; border-right:1px solid #ffffff; border-left: 1px solid #6a7776; text-align:center; /*background-image:url('images/roll_bc.jpg');temp*/cursor:pointer;}
+#bcontact{width:177px; height:53px; top:152px; left:50%; margin-left:288px; position:absolute; border-left: 1px solid #6a7776; /*border-right:3px double #ffffff;*/ text-align:center; /*background-image:url('images/roll_d.jpg');temp*/ background-position:top right; cursor:pointer;}
+#hedmark{width:176px; height:9px; left:50%; margin-left:-244px; top:197px; position:absolute; background-image:url('images/hed_mark.gif'); background-position:top center;}
+#layer1{width: 930px; height: 415px; background-image:url('images/kreative_profile_bg.jpg'); top: 230px; left:50%; margin-left:-464px; position: absolute; overflow-x:hidden; visibility:hidden;}
+#srvImage{width: 296px; height: 216px; top: 280px; left:50%; margin-left:138px; position:absolute; visibility:hidden;}
+#txtbox{width: 435px;  height:395px; top:235px; left:50%; margin-left:-433px; position: absolute; padding-right:10px; overflow-y:auto; overflow-x:hidden; visibility:hidden; text-align:justify;}
+ul.profile{list-style-position:outside; list-style-type:disc; list-style-image: url(images/corner_point.gif); padding-left: 10px; margin: 0px 0px 0px 5px;}
+#txtbox2{width: 335px;  height:auto; top:295px; left:50%; margin-left:-235px; position: absolute;  padding: 10px 10px 40px 20px;/* padding:10px; padding-bottom:40px; padding-top:5px;*/
+background:#e1e5e4; visibility:hidden;}
+#servicebutt{width:215px; height:500px; top:250px; left:50%; margin-left:-450px; position:absolute;}
+#portfolio{width:auto; height:auto; top:267px; right:50%; margin-right:-423px; position:absolute; /*background:#000;*/visibility:hidden;}
+#ipanel{/*width:462px; */width:551px; height:auto; /*265px;*/  background-image:url('images/50_fff_bg.png'); position:absolute; top:267px; right:50%; margin-right: -423px; padding: 7px 7px 23px 7px; z-index:10; visibility:hidden;}
+.pinfo{ background:#e1e5e4; padding: 22px 40px 32px 40px; width:100%; height:100%; text-align:justify; vertical-align:top;}
+#viewinfo{top:586px; left:50%; margin-left:-162px; position:absolute; width:131px; height:27px; background:#000; background-image:url('images/view_info_butt.jpg');  cursor:pointer; visibility:hidden;}
+
+#portpanel{width:606px; height: 363px; top:249px; left:50%; margin-left:-163px; position:absolute; visibility:hidden;}
+#fpanel{width:609px; height: 377px; top:249px; left:50%; margin-left:-443px; position:absolute; visibility:hidden;}
+
+.servicestyle{line-height:30px; font-size:12px; font-weight:bold; color:#0f0000; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; letter-spacing:.05em; padding-left:20px; /*cursor: loop in variables*/ }
+/*#sbutt1{background-image:url('images/service_button.gif');}*/
+ul.service{list-style-position:outside; list-style-type:disc; padding-left: 10px; margin: 0px 0px 0px -5px;}
+
+.bucket {
+	/*position:absolute; left: 30px; */ line-height:49px; font-size:16px; font-weight:bold; color:#0f0000; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing:.05em;
+   /* text-shadow:1px 1px 2px #000; */   
+}
+.txthuge{line-height:50px; font-size:28px; font-weight:bold; color:#0f0000; font-family: Arial, Helvetica, sans-serif;
+	letter-spacing:.05em;}
+.txtheavy{line-height:32px; font-size:18px; font-weight:bold; color:#0f0000; font-family: Arial, Helvetica, sans-serif;
+	letter-spacing:.05em;}
+.txtnormal{line-height:20px; font-size:14px; font-weight:700; color:#0f0000; font-family: Arial, Helvetica, sans-serif;
+	/*letter-spacing:.05em;*/}
+.txtnormal_lte{line-height:18px; font-size:14px; font-weight:700; color:#0f0000; font-family: Arial, Helvetica, sans-serif;
+	/*letter-spacing:.05em;*/  }
+.txtbullets{line-height:21px; font-size:14px; font-weight:700; color:#0f0000; font-family:Arial, Helvetica, sans-serif;
+	/*letter-spacing:.05em; list-style-position: outside;*/ }
+.txtthin{line-height:20px; font-size:14px; color:#0f0000; font-family:Arial, Helvetica, sans-serif;
+	letter-spacing:.05em; }
+.txtlight{line-height:20px; font-size:12px; color:#0f0000; font-family:Tahoma, Arial, Helvetica, sans-serif;
+	letter-spacing:.05em; text-align:left; /*text-align:justify;*/  list-style-position: outside;}	
+.txtmicro{line-height:15px; font-size:10px; color:#0f0000; font-family:Tahoma, Arial, Helvetica, sans-serif;
+	text-align:left;  list-style-position: outside;}
+	
+	.bigarial{ font-family:Arial, Helvetica, sans-serif; font-size: 24px; font-weight:bold; line-height:38px; }
+	.smallarial{ font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height:22px;}
+	.boldarial{ font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height:22px; font-weight:bold;}
+	
+/* ------------------------------------------------------------------------------ */
+/*                                                                       PBUTTONS */
+/* ------------------------------------------------------------------------------ */
+#pbuttons{ width:auto; height:100px; /*background:#999;*/ right:50%; margin-right:-423px; top:560px; text-align:right; position:absolute; visibility:hidden;}
+#pbuttons2{ width:auto; height:100px;  right:50%; margin-right:-423px; /*top:560px;*/top:595px; text-align:right; position:absolute; /*visibility:hidden;*/ background:#FC3;}
+.pbt{padding:2px 0px 2px 0px; /*background:#e0e0e0;*/ background-image:url(images/pbt_up.jpg); cursor:pointer; width:26px; text-align:center; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size: 18px; color:#333;}
+.pbt10{padding:2px 0px 2px 0px; background-image:url(images/pbt_up.jpg); cursor:pointer; width:28px; text-align:center; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size: 18px; color:#333;}
+
+.pactive{background:#e0e0e0; cursor:pointer; text-align:center; /*padding:5px;*/ padding: 2px 8px 2px 8px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; font-size: 18px;/*letter-spacing:.05em;*/}
+	a.pactive{background:#e0e0e0; text-decoration: none; color:#333; }
+	/*a.pactive:visited {  background:#6e6e6e; text-decoration:none; color:#333;  }*/
+	a.pactive:hover,a.ex3:active { background:#fff; text-decoration:none; color:#333; }
+	a.pactive:focus { text-decoration:none; color:#333; background:#ff8400; }
+	
+	/*less x-padding for tab buttons over 10*/
+	.pactive10{background:#e0e0e0; cursor:pointer; text-align:center; /*padding:5px;*/ padding: 2px 3px 2px 3px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; font-size: 18px;/*letter-spacing:.05em;*/}
+	a.pactive10{background:#e0e0e0; text-decoration: none; color:#333; }
+	/*a.pactive10:visited {  background:#6e6e6e; text-decoration:none; color:#333;  }*/
+	a.pactive10:hover,a.ex3:active { background:#fff; text-decoration:none; color:#333; }
+	a.pactive10:focus { text-decoration:none; color:#333; background:#ff8400; }
+	
+	/*for button # 1*/
+	.pactivechild{background:#e0e0e0; /*width:20px; height:20px;*/ cursor:pointer; text-align:center; padding:5px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; font-size: 18px; /*letter-spacing:.05em;*/ } /*same*/
+	a.pactivechild{background:#e0e0e0; text-decoration: none; color:#333; padding: 2px 8px 2px 8px;}/* this looks like visited else is same*/
+	/*a.pactivechild:visited {  background:#6e6e6e; text-decoration:none; color:#333;  }*//*same*/
+	a.pactivechild:hover,a.ex3:active { background:#fff; text-decoration:none; color:#333; }/*same*/
+	a.pactivechild:focus { text-decoration:none; color:#333; background:#ff8400; }
+	/*end button # 1*/
+	.lilspace { font-size: 4px; }
+	
+/* =============================== end pbuttons ==================================*/ 
+
+/* ------------------------------------------------------------------------------ */
+/*                                                                MAIL FORM STYLE */
+/* ------------------------------------------------------------------------------ */
+.kreativeType {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 21pt;
+	color: #111111;
+	text-align:right;
+	/*background-image:url('images/50_fff_bg.png');*//*padding-right: 23px;*//*padding-left: 28px;*/
+}
+.tdbg{background-image:url('images/50_fff_bg.png'); text-align:left;}
+.formtop{background-image:url('images/formtop_bg.png');}
+	
+table.kreativeType td { 
+	padding:2px 10px 3px 10px; 
+	
+	}
+
+.submitbutt {
+  border: none;
+    width: 177px;
+    height: 38px;
+  /*  background: transparent url(images/submit_button.png) no-repeat;  top left; */
+	text-decoration: none; 
+}
+/*submitbutt:hover {
+	background: transparent url(images/submit_button_roll.png) no-repeat;
+	image-src:"images/submit_button.png";
+	src:"images/submit_button.png";
+	text-decoration: none;  }
+#Submit a { 
+background: transparent url(images/submit_button.png) no-repeat; 
+text-decoration: none; 
+} 
+#Submit a:hover { 
+background: transparent url(images/submit_button_roll.png) no-repeat; 
+text-decoration: none;
+} */
+#mailform{width:609px; height: 377px; top:260px; left:50%; margin-left:-417px; position:absolute; visibility:hidden;}
+#ealert{width:198px; height:114px; left:50%; margin-left:-48px; top:271px; position:absolute;}
+
+#submission{width:609px; height: 377px; top:260px; left:50%; margin-left:-443px; position:absolute; padding-left:28px;  visibility:hidden;}
+
+.submissionType {
+	font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 28pt; color: #111111;
+	background-image:url('images/submission.png');
+	/*padding-right: 23px;padding-left: 35px;*//*text-align:left;*/
+		}
+table.submissionType td { 
+	padding:2px 10px 3px 10px; 
+	
+}
+#fclose{ width:27px; height: 27px; background:#f69; top:269px; left:50%; margin-left:95px; position:absolute; visibility:hidden; cursor:pointer; }
+
+#mailformi{ width:609px; height: 377px; top:260px; left:50%; margin-left:-417px; position:absolute; visibility:hidden;}
+
+/*============================== end form mail style==============================*/
+
+
+/* ------------------------------------------------------------------------------ */
+/*                                                              VIDEO INTEGRATION */
+/* ------------------------------------------------------------------------------ */
+
+#tubeparent{ top:720px; height: 0px; position:absolute; width:0px;  left:50%; margin-left:-468px; background:#f69; }
+#ytplayer{bottom:45px; left:18px; position:absolute; width:369px; height:10px; overflow:hidden; z-index:80; }
+#vsleeve{bottom:45px; left:18px; position:absolute; width:369px; height:10px; overflow:hidden; background-image:url(images/media_sleeve.jpg); z-index:81; }
+#tubeskin{bottom:0px; position:absolute; width:409px; height:63px; background-image:url(images/video_chrome2.png); z-index:99; background-position:right top; visibility:hidden; cursor:n-resize;}
+#tubefront{bottom:0px; position:absolute; width:409px; height:61px; background-image:url(images/video_chrome2_short.png); z-index:100; background-position:right bottom; cursor:n-resize; }
+
+/*#videobutts{top:678px; left:50%; margin-left:-242px; position:absolute; width:158px; height:32px;  z-index:101;}*/
+#vbutt1{width:42px; height:32px; top:678px; left:50%; margin-left:-242px;/*left:0px;*/ position:absolute;; background-image:url('images/video_last.png'); cursor:pointer; z-index:101;}
+#vbutt2{width:35px; height:32px; top:678px; left:50%; margin-left:-200px;/*left:42px;*/ position:absolute;; background-image:url('images/video_play.png'); cursor:pointer; z-index:101;}
+#vbutt3{width:37px; height:32px; top:678px; left:50%; margin-left:-165px;/*left:77px;*/ position:absolute;; background-image:url('images/video_pause_roll.png'); cursor:pointer;  z-index:101;}
+#vbutt4{width:44px; height:32px; top:678px;left:50%; margin-left:-128px; /*left:114px;*/ position:absolute;; background-image:url('images/video_next.png'); cursor:pointer; z-index:101;}
+
+/* =========================== END VIDEO INTEGRATION ============================ */
+#sitecontent{width: 930px; height: 415px; top: 230px; left:50%; margin-left:-464px; position: absolute; overflow-y:scroll; /*z-index:300;*/font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px;}
+
